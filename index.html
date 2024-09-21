@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        img {
+            max-width: 500px; /* Adjust this to control logo size */
+            margin-bottom: 5px;
+        }
+
+        .text-container {
+            /* overflow: hidden; */
+            position: relative;
+            width: 300px; /* Adjust width to control visible area */
+        }
+
+        h1 {
+            font-size: 3em;
+            color: #333;
+            position: absolute;
+            white-space: nowrap;
+            font-style: italic;
+            animation: slide 5s linear infinite; /* Animates every 5 seconds */
+        }
+
+        @keyframes slide {
+            0% {
+                transform: translateX(-100%); /* Start from the left of the container */
+            }
+            100% {
+                transform: translateX(100%); /* Move to the right of the container */
+            }
+        }
+    </style>
+</head>
+<body>
+    <img src="logo.png" alt="Website Logo">
+    <div class="text-container">
+        <h1>Coming Soon...</h1>
+    </div>
+</body>
+</html>

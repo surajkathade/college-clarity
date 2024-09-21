@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+  margin: 20px;
+}
+
+.dropdowns select {
+  margin: 10px;
+  padding: 5px;
+}
+
+button {
+  margin: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 10px 20px;
+}
